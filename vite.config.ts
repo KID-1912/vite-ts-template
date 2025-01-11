@@ -39,6 +39,7 @@ export default defineConfig(({ command, mode }) => {
           filepath: "./eslintrc-auto-import.json",
         },
         resolvers: [],
+        dts: 'auto-imports.d.ts',
       }),
       Components({
         resolvers: [
@@ -48,6 +49,7 @@ export default defineConfig(({ command, mode }) => {
             alias: { mc: "mingcute" },
           }),
         ],
+        dts: 'components.d.ts',
       }),
       Icons({ autoInstall: true }),
       svgLoader(),
