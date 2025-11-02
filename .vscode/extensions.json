@@ -1,0 +1,7 @@
+{
+  "recommendations": [
+    "michelemelluso.code-beautifier",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode"
+  ]
+}
